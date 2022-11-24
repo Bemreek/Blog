@@ -1,5 +1,13 @@
        <?php include("../../inc/config.php"); ?>
 
+<?php
+if(isset($_POST['submit'])){
+       if(! empty($_ POST['page_name']) && !empty($_POST['page_slog'])){
+       echo "So far we are good to go!";
+       }
+}
+?>
+
  <?php
       if ($con->connect_error) {
     die("Connection failed: " . $con->connect_error);
