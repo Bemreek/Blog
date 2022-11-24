@@ -1,2 +1,3 @@
 # Blog
-Just a blog with an admin area, that once uploaded on can write, update and delete from
+Just a blog with an admin area, that once uploaded you can write, update and delete from.
+A kind of CMS.
